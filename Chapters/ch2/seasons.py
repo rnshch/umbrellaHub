@@ -1,6 +1,5 @@
 
-def different_season():
-    season = input("Enter a season")
+def different_season(season):
     if season == "winter":
         print("snow")
     elif season == "spring":
