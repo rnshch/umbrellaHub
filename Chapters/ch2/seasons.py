@@ -1,8 +1,8 @@
 
 def different_season():
-    season = input("Enter a season")
+    season = input("enter a season a zamel")
     if season == "winter":
-        print("snow")
+        return "snow"
     elif season == "spring":
         print("flowers")
     elif season == "summer":
@@ -11,8 +11,3 @@ def different_season():
         print("leaves")
     else:
         print("sir 9wed")
-
-
-
-if __name__ == '__main__':
-    different_season()
